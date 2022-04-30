@@ -13,7 +13,7 @@
   <p align="center">
     Child Vaccine and Care
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the project»</strong></a>
+    <a href="https://github.com/Variable-N/ChildVax-Child-Vaccine-and-Care"><strong>Explore the project»</strong></a>
     <br />
     <br />
     <a href="https://github.com/Variable-N/ChildVax-Child-Vaccine-and-Care/issues">Report Bug</a>
@@ -48,8 +48,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][screenshot1]]
-[![Product Name Screen Shot][screenshot2]]
+![Product Name Screen Shot][screenshot1]
+![Product Name Screen Shot][screenshot2]
 
 On-time vaccination throughout childhood is essential because it helps provide immunity before children are exposed to potentially life-threatening diseases. But there is no easy to use software to keep track on your childs vaccination. In this CSE470 project, I am proposing a system where you can find your child's full vaccination roadmap and extra care such as Doctors appointment and etc.
 
@@ -66,7 +66,7 @@ Why do we need ChildVax:
 
 ### Built With
 
-This project was made with
+This project was made by following Model View Controller (MVC) Pattern. I used:
 
 * [Laravel](https://laravel.com)
 * [MySQL](https://www.mysql.com/)
