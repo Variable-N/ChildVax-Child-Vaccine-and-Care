@@ -23,5 +23,6 @@ Route::group(['middleware' => ['auth']], function () {
     Route::resource('child', ChildController::class);
     Route::resource('hospital', HospitalController::class);
     Route::resource('vaccine', VaccineController::class);
+    Route::resource('vaccine-schedule', VaccineScheduleController::class)->only(['index', 'store']);
 });
 

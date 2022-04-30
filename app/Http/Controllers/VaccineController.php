@@ -14,7 +14,7 @@ class VaccineController extends Controller
      */
     public function index()
     {
-        //
+        return view('vaccine.index')->with(['data' => Vaccine::get()]);
     }
 
     /**
@@ -24,7 +24,7 @@ class VaccineController extends Controller
      */
     public function create()
     {
-        //
+        return view("vaccine.create");
     }
 
     /**
@@ -35,7 +35,9 @@ class VaccineController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // dd($request->all());
+        Vaccine::create($request->all());
+        return redirect()->back();
     }
 
     /**
@@ -80,6 +82,7 @@ class VaccineController extends Controller
      */
     public function destroy(Vaccine $vaccine)
     {
-        //
+        $vaccine->delete();
+        return redirect()->back();
     }
 }

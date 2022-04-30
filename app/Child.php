@@ -17,4 +17,18 @@ class Child extends Model
     {
         return $this->belongsTo(User::class);
     }
+
+    public function hasGot(Vaccine $vaccine)
+    {
+        return $this->vaccines->find($vaccine) ? true : false;
+    }
+    /**
+     * The vaccines that belong to the Child
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function vaccines()
+    {
+        return $this->belongsToMany(Vaccine::class);
+    }
 }

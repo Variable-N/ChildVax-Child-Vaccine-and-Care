@@ -15,8 +15,16 @@ class CreateVaccinesTable extends Migration
     {
         Schema::create('vaccines', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('name');
+            $table->unsignedInteger('administer_day')->default(0);
             $table->timestamps();
         });
+        Schema::create('child_vaccine', function (Blueprint $table) {
+            $table->unsignedBigInteger('child_id');
+            $table->unsignedBigInteger('vaccine_id');
+            $table->timestamps();
+        });
+
     }
 
     /**
@@ -27,5 +35,6 @@ class CreateVaccinesTable extends Migration
     public function down()
     {
         Schema::dropIfExists('vaccines');
+        Schema::dropIfExists('child_vaccine');
     }
 }

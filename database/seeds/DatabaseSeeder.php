@@ -16,6 +16,7 @@ class DatabaseSeeder extends Seeder
         $this->call(DoctorSeeder::class);
         $this->call(HospitalSeeder::class);
         $this->call(AppointmentSeeder::class);
+        $this->call(VaccineSeeder::class);
 
     }
 }

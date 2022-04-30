@@ -42,6 +42,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url('appointment') }}">{{ __('Appointment') }}</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('vaccine-schedule') }}">{{ __('Vaccine Schedule') }}</a>
+                        </li>
                     @endif
 
                     {{-- Agent Options --}}
