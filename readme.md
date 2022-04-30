@@ -37,7 +37,7 @@
         <li><a href="#features">Features</a></li>
       </ul>
     </li>
-    <li><a href="#future plan">Future Plan</a></li>
+    <li><a href="#future-plan">Future Plan</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
