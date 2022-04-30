@@ -1,72 +1,134 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+<div id="top"></div>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
 
-## About Laravel
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/Variable-N/ChildVax-Child-Vaccine-and-Care">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+  <h3 align="center">ChildVax</h3>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+  <p align="center">
+    Child Vaccine and Care
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the project»</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/Variable-N/ChildVax-Child-Vaccine-and-Care/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Variable-N/ChildVax-Child-Vaccine-and-Care/issues">Request Feature</a>
+  </p>
+</div>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+        <li><a href="#features">Features</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost you and your team's skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
+[![Product Name Screen Shot][screenshot1]]
+[![Product Name Screen Shot][screenshot2]]
 
-## Contributing
+On-time vaccination throughout childhood is essential because it helps provide immunity before children are exposed to potentially life-threatening diseases. But there is no easy to use software to keep track on your childs vaccination. In this CSE470 project, I am proposing a system where you can find your child's full vaccination roadmap and extra care such as Doctors appointment and etc.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Goal: Ensuring a smart way to track the vaccination of a newbourn baby and emergency care if required.
 
-## Security Vulnerabilities
+Why do we need ChildVax:
+* Vaccine card or old ways can not be trusted as the vaccine requirement is updating.
+* Vaccination is a long process. For example, Meningococcal conjugate (MenACWY)(2nd dose)  given at 16 years old. So, a all in one website is more handy.
+* A easy to use doctor appointment system specifically designed for parents.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## License
 
-The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# ChildVax
+
+### Built With
+
+This project was made with
+
+* [Laravel](https://laravel.com)
+* [MySQL](https://www.mysql.com/)
+* [JavaScript](https://www.javascript.com/)
+* [CSS]()
+* [HTML]
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+### Features
+
+Current features:
+
+Parents:
+- [x] 1. Registration system
+- [x] 2. Secured login system
+- [x] 3. Add and remove their child information
+- [x] 4. Request for appointment in their feasable time
+- [x] 5. See their children's vaccination list with upcoming date
+
+Agent:
+- [x] 1. Secured login system
+- [x] 2. Add and remove their child information
+- [x] 3. Appointment approve and remove
+- [x] 4. Update childrens vaccine information in the database.
+
+Admin:
+- [x] 1. Secured login system
+- [x] 2. Add and remove their child information
+- [x] 3. Appointment approve and remove
+- [x] 4. Update childrens vaccine information in the database.
+- [x] 5. Add or Remove vaccines and change administer day of vaccines.
+- [x] 6. Add or Remove Hospitals from the system
+- [x] 7. Add or Remove Doctor list from the system
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+### Future Plan:
+The project needs some works to reach its ultimate goal. Our future plan is:
+
+- [ ] 1. Improve the UI of the system.
+- [ ] 2. A reminder system for upcoming doctor appointment and vaccine.
+- [ ] 3. Bug fixes
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Niloy Farhan- [LinkedIn](https://www.linkedin.com/in/niloy-farhan-b553391ab/) - niloy.farhan@g.bracu.ac.bd
+
+Project Link: [https://github.com/Variable-N/ChildVax-Child-Vaccine-and-Care](https://github.com/Variable-N/ChildVax-Child-Vaccine-and-Care)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[screenshot1]: images/vaccine.png
+[screenshot2]: images/appointment.png
