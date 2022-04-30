@@ -72,7 +72,7 @@ This project was made by following Model View Controller (MVC) Pattern. I used:
 * [MySQL](https://www.mysql.com/)
 * [JavaScript](https://www.javascript.com/)
 * [CSS]()
-* [HTML]
+* [HTML]()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
